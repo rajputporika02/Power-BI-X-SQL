@@ -66,11 +66,11 @@ The project uses sales data from AtliQ Hardware, stored in a MySQL database.
 
 The database contains business-related information required to analyze sales transactions, markets, and overall business performance.
 
-The raw database was loaded using the provided `data.sql` file.
+The raw database was loaded using the provided `db_dump.sql` file.
 
 ### Data Source Workflow
 
-1. Import the `data.sql` file into MySQL.
+1. Import the `db_dump.sql` file into MySQL.
 2. Load the database and inspect the available tables.
 3. Understand the relationships between the tables.
 4. Execute SQL queries to explore and analyze the sales data.
@@ -85,7 +85,7 @@ The project follows an end-to-end data analytics workflow:
 ### Step 1: Database Setup and SQL Analysis
 
 - Installed and configured MySQL.
-- Imported the `data.sql` file to create and populate the database.
+- Imported the `db_dump.sql` file to create and populate the database.
 - Explored the available database tables and their relationships.
 - Performed SQL-based analysis to understand the underlying sales data.
 - Identified data quality issues that could affect revenue calculations and business reporting.
@@ -245,32 +245,10 @@ The developed solution reduces dependence on inconsistent manual reporting and p
 
 Overall, this project highlights the practical application of SQL and Power BI in solving business analytics problems and supporting data-driven decision-making.
 
-## 11. Repository Structure
 
-A suggested repository organization for this project:
 
-```text
-Sales-Insights-PowerBI-SQL/
-│
-├── data/
-│   └── data.sql
-│
-├── sql/
-│   └── sales_analysis.sql
-│
-├── powerbi/
-│   └── Sales_Insights_Dashboard.pbix
-│
-├── screenshots/
-│   ├── dashboard_overview.png
-│   └── dashboard_details.png
-│
-└── README.md
-```
 
-*Note: The above is a suggested repository structure. Adjust the filenames and folders according to the actual files available in your repository.*
-
-## 12. How to Run the Project
+## 11. How to Run the Project
 
 Follow these steps to reproduce the project:
 
@@ -284,18 +262,18 @@ Follow these steps to reproduce the project:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/rajputporika02/Sales-Insights-PowerBI-SQL.git
+git clone https://github.com/rajputporika02/Power-BI-X-SQL.git
 ```
 
 ```bash
-cd Sales-Insights-PowerBI-SQL
+cd Power-BI-X-SQL
 ```
 
 ### Step 2: Import the Database
 
 1. Open MySQL Workbench.
 2. Connect to your MySQL server.
-3. Open the `data.sql` file.
+3. Open the `db_dump.sql` file.
 4. Execute the SQL script to create and populate the database.
 5. Verify that the required tables have been imported successfully.
 
@@ -331,7 +309,7 @@ Open the `.pbix` file using Power BI Desktop to interact with the sales analytic
 
 *Important: Update database connection credentials and paths according to your local MySQL configuration.*
 
-## 13. Future Scope
+## 12. Future Scope
 
 The project can be extended through:
 
